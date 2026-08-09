@@ -1,0 +1,98 @@
+# =========================================================
+# Dependencies
+# =========================================================
+# Ignores node_modules directories at any depth in the tree.
+node_modules/
+jspm_packages/
+
+# =========================================================
+# Build / Compilation Output
+# =========================================================
+# TailwindCSS and PostCSS generate processed CSS from src/.
+# Adjust if your build output lives elsewhere.
+build/
+out/
+.cache/
+.parcel-cache/
+.tmp/
+.temp/
+*.tsbuildinfo
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================================================
+# Environment & Local Secrets
+# =========================================================
+.env
+.env.local
+.env.*.local
+
+# =========================================================
+# Operating System Files
+# =========================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_view.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# =========================================================
+# Editor / IDE Files
+# =========================================================
+.vscode/
+!.vscode/settings.example.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+
+# =========================================================
+# Misc
+# =========================================================
+*.tgz
+.history/
+.yarn-integrity
+.eslintcache
+.stylelintcache
+.github
