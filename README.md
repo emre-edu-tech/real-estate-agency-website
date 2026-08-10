@@ -1,4 +1,4 @@
-# Evergreen Real Estate
+# Media Pons Real Estate
 
 A professional, responsive **mixed real estate company website** built with semantic **HTML5**, **TailwindCSS v3 LTS** (compiled via npm + PostCSS), and **vanilla JavaScript**. No frameworks — fast, lightweight, and easy to host on any static-file service.
 
@@ -105,4 +105,4 @@ Because the output is plain static files (`*.html` + `dist/output.css` + `assets
 
 ## License
 
-This project is provided as a starter template for the Evergreen Real Estate brand. Adapt freely for your own use.
+This project is provided as a starter template for the Media Pons Web Development brand. Adapt freely for your own use.
